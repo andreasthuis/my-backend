@@ -1,0 +1,22 @@
+{
+	"name": "rojo-teams",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.54.0"
+	},
+	"kv_namespaces": [
+		{
+			"binding": "ROBLOX_LINKS",
+			"id": "80bdf11417724637b66fef0c26f750cb"
+		}
+	]
+}
